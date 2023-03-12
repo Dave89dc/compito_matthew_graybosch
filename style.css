@@ -140,6 +140,28 @@ footer {
         border-bottom: 1px solid #ecedee;
         height: 300px;
     }
+}
+
+@media screen and (max-width: 450px) {
+    #content {
+        width: 100%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    header {
+        width: 420px;
+        background-color: #25262e;
+        color: #ecedee;
+        text-align: center;
+        border-bottom: 1px solid #ecedee;
+        height: 380px;
+    }
+
+    table {
+        font-size: 12px;
+    }
 
 }
+
 
