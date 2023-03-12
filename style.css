@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@400;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17171d;
+    color: #ecedee;
+    font-family: Open Sans, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #25262e;
+    color: #ecedee;
+    text-align: center;
+    border-bottom: 1px solid #ecedee;
+    height: 300px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ecedee;
+    border: 1px solid #ecedee;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+nav {
+    margin: 50px 0;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: xx-large;
+    font-size: 42px;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: xx-large;
+    font-size: 30px;
+}
+
+a {
+    color: rgb(245, 238, 197);
+    text-align: center;
+}
+
+table, thead, tbody, tr, td, th {
+    border: 1px solid #ecedee;
+    padding: 10px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+details {
+    border: 1px solid #ecedee;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: #25262e;
+    cursor: pointer;
+}
+
+#content {
+    width: 40%;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+section {
+    border-bottom: 1px solid #ecedee;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.back-to-top {
+    padding-left: 40%;
+    padding-top: 40px;
+}
+
+.ul {
+    column-count: 2;
+}
+
+@media screen and (max-width: 1270px) {
+    #content {
+        width: 75%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    header {
+        width: 100%;
+        background-color: #25262e;
+        color: #ecedee;
+        text-align: center;
+        border-bottom: 1px solid #ecedee;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    header {
+        width: 100%;
+        background-color: #25262e;
+        color: #ecedee;
+        text-align: center;
+        border-bottom: 1px solid #ecedee;
+        height: 300px;
+    }
+
+}
+
